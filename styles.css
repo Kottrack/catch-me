@@ -1,0 +1,17 @@
+.control-block {
+    padding: 5px;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.score-field {
+    margin: 5px;
+}
+
+canvas {        
+    background: yellow;
+}
