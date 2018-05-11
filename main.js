@@ -79,11 +79,11 @@ function animate() {
 
   createNewSquareInterval = setInterval(function() {
     squaresArr.push(new Square(squareWidth, squareHeight))
-  }, Math.random() * 1000);
+  }, Math.random() * 3000);
 
   createNewModifiedSquareInterval = setInterval(function() {
     modifiedSquaresArr.push(new ModifiedSquare(squareWidth, squareHeight))
-  }, Math.random() * 2000);
+  }, Math.random() * 5000);
 
   renderInterval = setInterval(drawCanvas, 20);
    
