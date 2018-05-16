@@ -114,15 +114,9 @@ function animate() {
     ctx.clearRect(0, 0, canvasWidth, canvasHeight);
     squaresArr.forEach((square, i, squaresArr) => {
       square.draw();
-      if (square.y > canvasHeight) {
-        delete squaresArr.splice(i, 1);
-      }
     });
     modifiedSquaresArr.forEach((square, i, modifiedSquaresArr) => {
       square.draw();
-      if (square.y > canvasHeight) {
-        delete modifiedSquaresArr.splice(i, 1);
-      }
     });
   }
 
